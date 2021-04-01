@@ -23,7 +23,7 @@ const ModalWithRecoil = () => {
         console.log('on backdrop press fired');
       }}>
       <View style={styles.card}>
-        <Text>Modal With Local State</Text>
+        <Text>Modal With Recoil State</Text>
 
         <TouchableOpacity onPress={() => setIsVisible(false)}>
           <View style={styles.btn}>
